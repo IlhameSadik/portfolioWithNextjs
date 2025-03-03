@@ -49,3 +49,19 @@
     @apply w-full h-[180px] p-6 capitalize rounded-lg resize-none;
   }
 }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden; /* Pour éviter le scroll horizontal, si nécessaire */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+  overflow-y: auto;
+}
