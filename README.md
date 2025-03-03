@@ -2,7 +2,7 @@
 
 Bienvenue sur mon portfolio ! 👋 Je suis **Ilhame Sadik**, une développeuse Fullstack passionnée par le **développement web** et l'**analyse de données**.
 
-🌍 [Mon Portfolio](https://ton-lien-vercel.com)  
+🌍 [Mon Portfolio](https://portfolio-psquuunyt-ilhame-sadiks-projects.vercel.app)  
 🔗 [Mon LinkedIn](https://www.linkedin.com/in/ilhame-sadik-4a2404163/)  
 📧 [Me Contacter](mailto:sadikilham2002@gmail.com)  
 
