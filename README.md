@@ -8,10 +8,6 @@ Bienvenue sur mon portfolio ! 👋 Je suis **Ilhame Sadik**, une développeuse F
 
 ---
 
-## 🛠 **Compétences**
-- **Front-end** : React.js, HTML/CSS, JavaScript, Bootstrap, Tailwind  
-- **Back-end** : Spring Boot, Java, PHP, MySQL, MongoDB  
-- **Autres** : Git, API REST, Data Analysis (Python, R)  
 
 ---
 
