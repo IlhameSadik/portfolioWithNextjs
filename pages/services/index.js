@@ -10,7 +10,7 @@ const Services = () => {
         <div className="flex flex-col xl:flex-row gap-x-8">
           {/* Texte section */}
           <div className="text-center flex xl:w-[30vw] flex-col lg:text-left mb-4 xl:mb-0">
-            <h2 className="h2 xl:mt-8">
+            <h2 className="h2 ">
               My Services <span className="text-accent">.</span>
             </h2>
             <p className="mb-4 max-w-[400px] mx-auto lg:mx-0">

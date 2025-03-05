@@ -28,10 +28,10 @@ const Contact = () => {
 
   return (
     <div className="h-full bg-primary/30 flex items-center justify-center">
-      <div className="container mx-auto py-20 text-center xl:text-left">
+      <div className="container mx-auto py-20 pt-0 text-center xl:text-left">
         <div className="flex flex-col w-full max-w-[700px] mx-auto">
           {/* Titre */}
-          <h2 className="h2 text-center mb-8">
+          <h2 className="h2 text-center  mb-8">
             Let&apos;s <span className="text-accent">connect.</span>
           </h2>
 
