@@ -23,63 +23,64 @@ const fadeIn = (direction, delay) => {
 
 const aboutData = [
     {
-        title: "compétences",
+        title: "Skills",
         info: [
             {
-                title: "Développement Back-end",
+                title: "Back-end Development",
                 description: "Java, Python, Spring Boot, MySQL, MongoDB"
             },
             {
-                title: "Développement Front-end",
+                title: "Front-end Development",
                 description: "React.js, JavaScript, HTML/CSS, Bootstrap, Tailwind"
             },
             {
-                title: "Outils & IDE",
+                title: "Tools & IDEs",
                 description: "VS Code, Eclipse, IntelliJ IDEA, Postman, Git, Figma"
             },
         ],
     },
     {
-        title: "formation",
+        title: "Education",
         info: [
             {
-                title: "Ingénieure d'État en Génie Mathématique et Informatique",
+                title: "State Engineer in Mathematical and Computer Engineering",
                 stage: "2023 - 2025",
-                description: "Faculté des sciences et techniques Mohammedia"
+                description: "Faculty of Science and Technology, Mohammedia"
             },
             {
-                title: "DEUST",
+                title: "DEUST (Diploma in Science and Technology)",
                 stage: "2020 - 2022",
-                description: "Faculté des sciences et techniques Mohammedia"
+                description: "Faculty of Science and Technology, Mohammedia"
             },
             {
-                title: "Baccalauréat Science Mathématique (A)",
+                title: "Mathematical Sciences Baccalaureate (A)",
                 stage: "2019 - 2020",
-                description: "Lycée Mohammed Zaraktoni Casablanca"
+                description: "Mohammed Zaraktoni High School, Casablanca"
             },
         ],
     },
     {
-        title: "expérience",
+        title: "Experience",
         info: [
             {
-                title: "Stage de développement web",
-                stage: "Avril 2024 - Septembre 2024",
-                description: "Webcom - Développement front-end et optimisation UX/UI"
+                title: "Web Development Internship",
+                stage: "April 2024 - September 2024",
+                description: "Webcom - Front-end development and UX/UI optimization"
             },
             {
-                title: "Application Web de Gestion d'Hôtel",
-                stage: "Projet Personnel",
-                description: "Full-stack avec React.js, Spring Boot et MySQL"
+                title: "Hotel Management Web Application",
+                stage: "Personal Project",
+                description: "Full-stack development using React.js, Spring Boot, and MySQL"
             },
             {
-                title: "Application Desktop de Gestion d'une Salle de Sport",
-                stage: "Projet Académique",
-                description: "Application Java avec JavaFX et MySQL"
+                title: "Gym Management Desktop Application",
+                stage: "Academic Project",
+                description: "Java application using JavaFX and MySQL"
             },
         ],
     },
 ];
+
 
 const About = () => {
     const [index, setIndex] = useState(0);
