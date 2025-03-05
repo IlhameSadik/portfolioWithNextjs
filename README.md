@@ -13,8 +13,8 @@ Bienvenue sur mon portfolio ! 👋 Je suis **Ilhame Sadik**, une développeuse F
 
 ## 📂 **À propos de ce projet**
 Ce portfolio présente **mon parcours**, **mes projets**, et **mes compétences** dans le développement web et l'analyse de données. Il est construit avec :
-- 🚀 **React.js** et **Vite** pour une expérience rapide et fluide  
-- 🎨 **CSS/Bootstrap/Tailwind** pour un design moderne et responsive  
+- 🚀 **Next.js** et **Frame Motion** pour une expérience rapide et fluide  
+- 🎨 **CSS/Tailwind css** pour un design moderne et responsive  
 - 🔗 Hébergé sur **Vercel** pour une accessibilité optimale  
 
 
