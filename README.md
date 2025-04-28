@@ -8,9 +8,6 @@ Bienvenue sur mon portfolio ! 👋 Je suis **Ilhame Sadik**, une développeuse F
 
 ---
 
-
----
-
 ## 📂 **À propos de ce projet**
 Ce portfolio présente **mon parcours**, **mes projets**, et **mes compétences** dans le développement web et l'analyse de données. Il est construit avec :
 - 🚀 **Next.js** et **Frame Motion** pour une expérience rapide et fluide  
