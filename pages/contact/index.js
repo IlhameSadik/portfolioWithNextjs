@@ -1,6 +1,8 @@
 import { useRef, useState } from "react";
 import { BsSend } from "react-icons/bs";
 import emailjs from "@emailjs/browser";
+import Circles from "../../components/Circles";
+
 
 const Contact = () => {
   const form = useRef();
@@ -28,6 +30,7 @@ const Contact = () => {
 
   return (
     <div className="h-full bg-primary/30 flex items-center justify-center">
+      <Circles />
       <div className="container mx-auto py-20 pt-0 text-center xl:text-left">
         <div className="flex flex-col w-full max-w-[700px] mx-auto">
           {/* Titre */}

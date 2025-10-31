@@ -4,13 +4,14 @@ import Circles from "../../components/Circles";
 
 const Services = () => {
   return (
-    <div className="h-full bg-primary/30 py-36 pt-0 flex items-center">
-      <Circles />
-      <div className="container mx-auto">
-        <div className="flex flex-col xl:flex-row gap-x-8">
-          {/* Texte section */}
-          <div className="text-center flex xl:w-[30vw] flex-col lg:text-left mb-4 ">
-            <h2 className="h2 xl:mt-4 ">
+    <div className="h-full min-h-screen bg-siel-blue/30 py-36 flex items-center overflow-y-auto">
+    <Circles />
+    <div className="container mx-auto">
+      <div className="flex flex-col xl:flex-row gap-x-8 gap-y-8 xl:gap-y-0">
+        {/* Texte et description */}
+        <div className="text-center flex xl:w-[30vw] flex-col lg:text-left mb-4 xl:mb-0">
+          <h2 className="h2 xl:mt-5 text-siel-blue">
+        
               My Services <span className="text-accent">.</span>
             </h2>
             <p className="mb-4 max-w-[400px] mx-auto lg:mx-0">
