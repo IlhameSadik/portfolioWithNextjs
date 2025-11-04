@@ -20,11 +20,11 @@ const Contact = () => {
       );
 
       console.log(result.text);
-      setMessage("Message envoyé avec succès !");
+      setMessage("Message sent successfully!");
       e.target.reset();
     } catch (error) {
       console.error(error.text);
-      setMessage("Une erreur s'est produite, veuillez réessayer.");
+      setMessage("An error occurred, please try again.");
     }
   };
 
