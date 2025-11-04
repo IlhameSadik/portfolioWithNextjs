@@ -9,7 +9,7 @@ const Services = () => {
     <div className="container mx-auto">
       <div className="flex flex-col xl:flex-row gap-x-8 gap-y-8 xl:gap-y-0">
         {/* Texte et description */}
-        <div className="text-center flex xl:w-[30vw] flex-col lg:text-left mb-4 xl:mb-0">
+        <div className=" flex xl:w-[30vw] flex-col lg:text-left mb-4 xl:mb-0">
           <h2 className="h2 xl:mt-5 text-siel-blue">
         
               My Services <span className="text-accent">.</span>

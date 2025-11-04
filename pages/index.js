@@ -29,8 +29,8 @@ const Home = () => {
         <div className="relative h-screen xl:h-[100vh]">    
             {/* Texte */}
             <div className="w-full h-full bg-gradient-to-r   from-primary/10 via-black/30">
-                <div className="flex flex-col justify-center xl:pt-40 xl:text-left h-auto container mx-auto">
-                    
+                <div className="flex flex-col justify-center   pt-24 sm:pt-28 xl:text-left h-auto container mx-auto">
+      
                     {/* Titre */}
                     <motion.h2
                          variants={fadeIn("down", 0.6)}
