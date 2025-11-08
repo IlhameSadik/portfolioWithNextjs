@@ -99,7 +99,7 @@ const About = () => {
     const [index, setIndex] = useState(0);
 
     return (
-        <div className=" h-full min-h-screen bg-siel-blue/30 pt-20 sm:pt-24 pb-8 px-4 overflow-y-auto">
+        <div className=" h-full mb-10 min-h-screen bg-siel-blue/30 pt-20 sm:pt-24 pb-8 px-4 overflow-y-auto">
             <div className="max-w-7xl mx-auto">
                 {/* Navigation avec effet hover et soulignement animé */}
                 <div className="flex justify-center mb-8 sm:mb-12 overflow-x-auto">

@@ -7,15 +7,16 @@ import { FiGithub, FiExternalLink } from "react-icons/fi";
 import Image from "next/image";
 
 const projectData = [
-   {
-    title: "restaurant",
-    path: "/projet5.png", // Image directement dans public
-    description: "Web application for hotel reservations and management",
-    tech: "React.js, Spring Boot, MySQL",
-    github: "https://github.com/IlhameSadik",
-    category: "Web Development",
-    demoLink: "https://bistro-bliss-git-main-ilhame-sadiks-projects.vercel.app/", // Lien vers la vidéo
-  },
+  {
+  title: "Restaurant",
+  path: "/projet5.png",
+  description: "Modern restaurant website with interactive UI and smooth navigation",
+  tech: "React.js, Tailwind CSS",
+  github: "https://github.com/IlhameSadik",
+  category: "Web Development",
+  demoLink: "https://bistro-bliss-git-main-ilhame-sadiks-projects.vercel.app/",
+},
+
   {
     title: "Hotel Management System",
     path: "/1.png", // Image directement dans public
