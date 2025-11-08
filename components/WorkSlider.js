@@ -7,6 +7,15 @@ import { FiGithub, FiExternalLink } from "react-icons/fi";
 import Image from "next/image";
 
 const projectData = [
+   {
+    title: "restaurant",
+    path: "/projet5.png", // Image directement dans public
+    description: "Web application for hotel reservations and management",
+    tech: "React.js, Spring Boot, MySQL",
+    github: "https://github.com/IlhameSadik",
+    category: "Web Development",
+    demoLink: "https://bistro-bliss-git-main-ilhame-sadiks-projects.vercel.app/", // Lien vers la vidéo
+  },
   {
     title: "Hotel Management System",
     path: "/1.png", // Image directement dans public
@@ -33,14 +42,7 @@ const projectData = [
     github: "https://github.com/IlhameSadik",
     category: "Scientific Computing",
   },
-  {
-    title: "Time Series Analysis",
-    path: "/3.png", // Image directement dans public
-    description: "Sales analysis using SARIMA model",
-    tech: "R, Data Analysis",
-    github: "https://github.com/IlhameSadik",
-    category: "Data Science",
-  },
+ 
 ];
 
 const WorkSlider = () => {
