@@ -2,10 +2,28 @@ import Image from "next/image";
 
 const Bulb = () => {
   return (
-    <div className="absolute -left-6 xl:w[260px] -bottom-12 rotate-12 mix-blend-color-dodge">
+    <div
+      className="
+        absolute
+        left-1/2
+        bottom-4
+        -translate-x-1/2
+        w-32
+        opacity-80
 
-    <Image src="/bulb.png" width={260} height={200} alt="bulb" />
-  </div>);
+        sm:left-auto
+        sm:-left-6
+        sm:-bottom-12
+        sm:w-48
+        sm:opacity-100
+        sm:rotate-12
+
+        xl:w-[260px]
+      "
+    >
+      <Image src="/bulb.png" width={260} height={200} alt="bulb" />
+    </div>
+  );
 };
 
 export default Bulb;

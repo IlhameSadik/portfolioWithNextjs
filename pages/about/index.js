@@ -24,24 +24,25 @@ const fadeIn = (direction, delay) => {
 };
 
 const aboutData = [
+    // {
+    //     title: "Skills",
+    //     info: [
+    //         {
+    //             title: "Back-end Development",
+    //             description: "Java, Spring Boot, Spring AI, Python, PostgreSQL, MySQL, Qdrant"
+    //         }, {
+    //             title: "Front-end Development",
+    //             description: "React.js, Next.js, JavaScript, HTML/CSS, Bootstrap, Tailwind"
+    //         }, {
+    //             title: "AI & Data",
+    //             description: "OpenAI Embeddings, RAG Systems, Data Vectorization, Semantic Search"
+    //         }, {
+    //             title: "Methodologies & Design",
+    //             description: "Agile/Scrum, CI/CD, UML, Merise, UI/UX Design"
+    //         }
+    //     ]
+    // }, 
     {
-        title: "Skills",
-        info: [
-            {
-                title: "Back-end Development",
-                description: "Java, Spring Boot, Spring AI, Python, PostgreSQL, MySQL, Qdrant"
-            }, {
-                title: "Front-end Development",
-                description: "React.js, Next.js, JavaScript, HTML/CSS, Bootstrap, Tailwind"
-            }, {
-                title: "AI & Data",
-                description: "OpenAI Embeddings, RAG Systems, Data Vectorization, Semantic Search"
-            }, {
-                title: "Methodologies & Design",
-                description: "Agile/Scrum, CI/CD, UML, Merise, UI/UX Design"
-            }
-        ]
-    }, {
         title: "Education",
         info: [
             {
@@ -86,20 +87,18 @@ const aboutData = [
                 description: "From Beginner to Pro – Udemy",
                 image: "/UDEMY.png"
             },
-            {
-                title: "Microsoft Learn",
-                description: "Power BI Fundamentals",
-                image: "/powerBI.png"
-              },
+            
+           
         ]
-    }
+    },
+    
 ];
 
 const About = () => {
     const [index, setIndex] = useState(0);
 
     return (
-        <div className=" h-full mb-10 min-h-screen bg-siel-blue/30 pt-20 sm:pt-24 pb-8 px-4 overflow-y-auto">
+<div className="h-full mb-10 min-h-screen bg-siel-blue/30 pt-20 sm:pt-24 pb-28 px-4 overflow-y-auto">
             <div className="max-w-7xl mx-auto">
                 {/* Navigation avec effet hover et soulignement animé */}
                 <div className="flex justify-center mb-8 sm:mb-12 overflow-x-auto">
