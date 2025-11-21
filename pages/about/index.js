@@ -24,24 +24,15 @@ const fadeIn = (direction, delay) => {
 };
 
 const aboutData = [
-    // {
-    //     title: "Skills",
-    //     info: [
-    //         {
-    //             title: "Back-end Development",
-    //             description: "Java, Spring Boot, Spring AI, Python, PostgreSQL, MySQL, Qdrant"
-    //         }, {
-    //             title: "Front-end Development",
-    //             description: "React.js, Next.js, JavaScript, HTML/CSS, Bootstrap, Tailwind"
-    //         }, {
-    //             title: "AI & Data",
-    //             description: "OpenAI Embeddings, RAG Systems, Data Vectorization, Semantic Search"
-    //         }, {
-    //             title: "Methodologies & Design",
-    //             description: "Agile/Scrum, CI/CD, UML, Merise, UI/UX Design"
-    //         }
-    //     ]
-    // }, 
+    // {     title: "Skills",     info: [         {             title: "Back-end
+    // Development",             description: "Java, Spring Boot, Spring AI, Python,
+    // PostgreSQL, MySQL, Qdrant"         }, {             title: "Front-end
+    // Development",             description: "React.js, Next.js, JavaScript,
+    // HTML/CSS, Bootstrap, Tailwind"         }, {             title: "AI & Data",
+    // description: "OpenAI Embeddings, RAG Systems, Data Vectorization, Semantic
+    // Search"         }, {             title: "Methodologies & Design",
+    // description: "Agile/Scrum, CI/CD, UML, Merise, UI/UX Design"         }     ]
+    // },
     {
         title: "Education",
         info: [
@@ -86,19 +77,21 @@ const aboutData = [
                 title: "Learn Figma: UI/UX Design Masterclass",
                 description: "From Beginner to Pro – Udemy",
                 image: "/UDEMY.png"
-            },
-            
-           
+            }, {
+                title: "Microservices with Java",
+                description: "Certificate of Achievement – MindLuster",
+                image: "/micro.jpg"
+            }
         ]
-    },
-    
+    }
 ];
 
 const About = () => {
     const [index, setIndex] = useState(0);
 
     return (
-<div className="h-full mb-10 min-h-screen bg-siel-blue/30 pt-20 sm:pt-24 pb-28 px-4 overflow-y-auto">
+        <div
+            className="h-full mb-10 min-h-screen bg-siel-blue/30 pt-20 sm:pt-24 pb-28 px-4 overflow-y-auto">
             <div className="max-w-7xl mx-auto">
                 {/* Navigation avec effet hover et soulignement animé */}
                 <div className="flex justify-center mb-8 sm:mb-12 overflow-x-auto">
@@ -132,20 +125,25 @@ const About = () => {
                 </div>
 
                 {/* Contenu animé avec transition fluide */}
-                <motion.div key={index}
+                <motion.div
+                    key={index}
                     initial={{
                         opacity: 0,
                         y: 10
-                    }} animate={{
+                    }}
+                    animate={{
                         opacity: 1,
                         y: 0
-                    }} exit={{
+                    }}
+                    exit={{
                         opacity: 0,
                         y: -10
-                    }} transition={{
+                    }}
+                    transition={{
                         duration: 0.5,
                         ease: "easeOut"
-                    }} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-8">
+                    }}
+                    className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-8">
                     {
                         aboutData[index]
                             .info
