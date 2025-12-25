@@ -7,16 +7,16 @@ const Sociale = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef(null);
 
-  const toggleSound = () => {
-    if (audioRef.current) {
-      if (isPlaying) {
-        audioRef.current.pause();
-      } else {
-        audioRef.current.play();
-      }
-      setIsPlaying(!isPlaying);
-    }
-  };
+  // const toggleSound = () => {
+  //   if (audioRef.current) {
+  //     if (isPlaying) {
+  //       audioRef.current.pause();
+  //     } else {
+  //       audioRef.current.play();
+  //     }
+  //     setIsPlaying(!isPlaying);
+  //   }
+  // };
 
   const socialLinks = [
     {
@@ -44,11 +44,11 @@ const Sociale = () => {
   return (
     <div className="flex md:flex-row flex-col md:space-x-6 space-y-6 md:space-y-0 items-center">
       {/* Audio Element - Caché mais toujours actif */}
-      <audio 
+      {/* <audio 
         ref={audioRef}
         src="/music.mp3"
         loop
-      />
+      /> */}
 
       {/* Liens sociaux */}
       {socialLinks.map((social, index) => (
@@ -70,7 +70,7 @@ const Sociale = () => {
       ))}
 
       {/* Switch pour le son avec icône note de musique - Desktop uniquement */}
-      <div className="hidden md:flex items-center gap-3">
+      {/* <div className="hidden md:flex items-center gap-3">
         <div className="flex items-center gap-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -108,7 +108,7 @@ const Sociale = () => {
             ></span>
           </label>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

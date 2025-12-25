@@ -70,6 +70,10 @@ const aboutData = [
         title: "Certifications",
         info: [
             {
+                title: "HackerRank",
+                description: "Frontend Developer (React) – Certificate of Accomplishment",
+                image: "/hacker.png"
+            }, {
                 title: "Bonita University Camp",
                 description: "BPM x Process Mining",
                 image: "/bmp.png"
@@ -82,6 +86,7 @@ const aboutData = [
                 description: "Certificate of Achievement – MindLuster",
                 image: "/micro.jpg"
             }
+
         ]
     }
 ];
