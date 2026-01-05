@@ -4,9 +4,9 @@ import Circles from "../../components/Circles";
 
 const Projects = () => {
   return (
-   <div className="h-full mb-10 min-h-screen bg-siel-blue/30 py-20 md:py-24 xl:py-36 flex items-center overflow-y-auto">
+   <div className="h-full mb-8 sm:mb-12 min-h-screen bg-siel-blue/30 py-20 md:py-24 xl:py-36 flex items-center overflow-y-auto">
     <Circles />
-    <div className="container mx-auto px-4 pt-24 md:pt-0">
+    <div className="container mx-auto px-4 pt-24  md:pt-0">
       <div className="flex flex-col xl:flex-row gap-x-8 gap-y-8 xl:gap-y-0">
         {/* Texte et description */}
         <div className="flex xl:w-[30vw] flex-col lg:text-left mb-4 xl:mb-0">

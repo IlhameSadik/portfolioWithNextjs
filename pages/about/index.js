@@ -70,13 +70,25 @@ const aboutData = [
         title: "Certifications",
         info: [
             {
-                title: "HackerRank",
-                description: "Frontend Developer (React) – Certificate of Accomplishment",
-                image: "/hacker.png"
-            }, {
+        title: "Frontend Developer (React)",
+        description: "Certificate of Accomplishment – HackerRank",
+        image: "/hacker.png"
+    }, {
                 title: "Bonita University Camp",
                 description: "BPM x Process Mining",
                 image: "/bmp.png"
+            }, {
+                title: "Java (Basic)",
+                description: "Certificate of Accomplishment – HackerRank",
+                image: "/hacker1.png"
+            }, {
+                title: "REST API (Basic)",
+                description: "Certificate of Accomplishment – HackerRank",
+                image: "/hacker2.png"
+            }, {
+                title: "Problem Solving (Intermediate)",
+                description: "Certificate of Accomplishment – HackerRank",
+                image: "/hacker3.png"
             }, {
                 title: "Learn Figma: UI/UX Design Masterclass",
                 description: "From Beginner to Pro – Udemy",

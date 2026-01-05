@@ -16,7 +16,10 @@ const Layout = ({ children }) => {
       <TopLeftImg />
       <Nav />
       <Header />
-      {children}
+      
+  {children}
+
+
     </div>
   );
 };
