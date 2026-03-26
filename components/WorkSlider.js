@@ -8,42 +8,49 @@ import Image from "next/image";
 
 const projectData = [
   {
-  title: "Restaurant",
-  path: "/projet5.png",
-  description: "Modern restaurant website with interactive UI and smooth navigation",
-  tech: "React.js, Tailwind CSS",
-  github: "https://github.com/IlhameSadik",
-  category: "Web Development",
-  demoLink: "https://bistro-bliss-git-main-ilhame-sadiks-projects.vercel.app/",
-},
-
+    title: "You Can Win",
+    path: "/youcanwin.png", // Capture du site ou image du projet
+    description: "Web app developed from Figma design, fully responsive and interactive",
+    tech: "HTML, CSS, JavaScript, React.js",
+    github: "https://github.com/IlhameSadik",
+    category: "Web Development",
+    demoLink: "https://you-can-win.vercel.app/",
+  },
+  {
+    title: "Restaurant",
+    path: "/projet5.png",
+    description: "Modern restaurant website with interactive UI and smooth navigation",
+    tech: "React.js, Tailwind CSS",
+    github: "https://github.com/IlhameSadik",
+    category: "Web Development",
+    demoLink: "https://bistro-bliss-git-main-ilhame-sadiks-projects.vercel.app/",
+  },
   {
     title: "Hotel Management System",
-    path: "/1.png", // Image directement dans public
+    path: "/1.png",
     description: "Web application for hotel reservations and management",
     tech: "React.js, Spring Boot, MySQL",
     github: "https://github.com/IlhameSadik",
     category: "Web Development",
-    demoLink: "https://drive.google.com/file/d/1Zdebzk-EjJukSDKml6lhbb2VxoUHFnCL/view?usp=drivesdk", // Lien vers la vidéo
+    demoLink: "https://drive.google.com/file/d/1Zdebzk-EjJukSDKml6lhbb2VxoUHFnCL/view?usp=drivesdk",
   },
   {
     title: "Gym Management Application",
-    path: "/2.png", // Image directement dans public
+    path: "/2.png",
     description: "Desktop app for gym operations",
     tech: "JavaFX, MySQL",
     github: "https://github.com/IlhameSadik",
     category: "Desktop Application",
-    demoLink: "https://drive.google.com/file/d/1liR0P3ZBu8dljrJdT63XeaX1aOmaGyv8/view?usp=drivesdk", // Lien vers la vidéo
+    demoLink: "https://drive.google.com/file/d/1liR0P3ZBu8dljrJdT63XeaX1aOmaGyv8/view?usp=drivesdk",
   },
   {
     title: "Automata Management System",
-    path: "/4.png", // Image directement dans public
+    path: "/4.png",
     description: "Application for modeling and visualizing automata",
     tech: "Python, Tkinter, Graphviz",
     github: "https://github.com/IlhameSadik",
     category: "Scientific Computing",
   },
- 
 ];
 
 const WorkSlider = () => {
@@ -68,7 +75,7 @@ const WorkSlider = () => {
         clickable: true,
       }}
       modules={[FreeMode, Pagination]}
-      className="h-[400px]"
+      className="h-[400px] pt-20"
     >
       {projectData.map((project, index) => (
         <SwiperSlide key={index}>
