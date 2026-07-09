@@ -3,10 +3,8 @@
 import { useCallback, useMemo } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-// import type { Engine, IOptions } from "tsparticles";
 
 const ParticlesContainer = () => {
-  // init CORRECT pour react-tsparticles
   const particlesInit = useCallback(async (engine) => {
     await loadFull(engine);
   }, []);
@@ -17,7 +15,7 @@ const ParticlesContainer = () => {
       background: {
         color: { value: "transparent" },
       },
-      fpsLimit: 120,
+      fpsLimit: 60, // 120 est inutile et sollicite le GPU pour rien
       interactivity: {
         events: {
           onHover: {
@@ -32,7 +30,7 @@ const ParticlesContainer = () => {
         },
         modes: {
           repulse: {
-            distance: 100,
+            distance: 80,   // un peu réduit pour un effet plus subtil
             duration: 0.4,
           },
           push: {
@@ -42,35 +40,35 @@ const ParticlesContainer = () => {
       },
       particles: {
         color: {
-          value: "#1E3A8A",
+          value: "#D97757", // couleur accent (remplace le bleu qui jurait avec le reste)
         },
         links: {
-          color: "#1E3A8A",
+          color: "#D97757",
           distance: 150,
           enable: true,
-          opacity: 0.5,
+          opacity: 0.3, // un peu plus discret
           width: 1,
         },
         move: {
           enable: true,
-          speed: 2,
-          outMode: "bounce", // ✅ compatible
+          speed: 0.6, // vitesse ralentie (était à 2, trop rapide/nerveux)
+          outMode: "bounce",
         },
         number: {
           density: {
             enable: true,
-            area: 800,
+            area: 900,
           },
-          value: 80,
+          value: 60, // légèrement réduit pour de meilleures perfs mobile
         },
         opacity: {
-          value: 0.5,
+          value: 0.4,
         },
         shape: {
           type: "circle",
         },
         size: {
-          value: { min: 1, max: 5 },
+          value: { min: 1, max: 4 },
         },
       },
       detectRetina: true,
@@ -81,7 +79,7 @@ const ParticlesContainer = () => {
   return (
     <Particles
       id="tsparticles"
-      init={particlesInit}   // ✅ ICI C’EST BIEN "init"
+      init={particlesInit}
       options={options}
       className="absolute inset-0 z-0"
     />

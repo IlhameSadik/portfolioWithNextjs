@@ -8,6 +8,17 @@ import Image from "next/image";
 
 const projectData = [
   {
+  title: "AutoPostule AI",
+  path: "/autopostule.png", // Capture d'écran de l'application
+  description:
+    "AI-powered job application platform that analyzes resumes, matches candidates",
+  tech:
+    "Next.js, React, TypeScript, Tailwind CSS, n8n, AI APIs",
+  github: "https://github.com/IlhameSadik", // ou le dépôt du projet
+  category: "AI & Web Development",
+  demoLink: "https://drive.google.com/file/d/1VtLt2wxKlSLopw42qVFqkzAbIiF5vzM8/view?usp=drive_link" // ton lien Vercel si disponible
+},
+  {
     title: "You Can Win",
     path: "/youcanwin.png", // Capture du site ou image du projet
     description: "Web app developed from Figma design, fully responsive and interactive",
