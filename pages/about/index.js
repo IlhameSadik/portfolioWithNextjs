@@ -54,6 +54,13 @@ const aboutData = [
         title: "Experience",
         info: [
             {
+    title: "Women & AI Bootcamp – Hackathon Participant",
+    stage: "2026",
+    description: "Orange Digital Center – Selected participant in the Women & AI Bootcamp, culminating" +
+            " in a hackathon where I developed AutoPostule AI, an AI-powered job application matching" +
+            " platform, from ideation to functional prototype."
+},
+            {
                 title: "Full-Stack Developer Intern",
                 stage: "March 2025 - August 2025",
                 description: "Digital Capital – Backend development with Spring Boot & Spring AI, PostgreSQL" +
